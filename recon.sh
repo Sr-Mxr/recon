@@ -2,9 +2,19 @@
 
 # Script de Recolección de Información con theHarvester
 # Este script utiliza theHarvester para recopilar información de dominios y correos electrónicos.
+# Función para mostrar el banner
+mostrar_banner() {
+    echo -e "\e[1;35m"
+    echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    echo "+     Recolección de Información con theHarvester      +"
+    echo "+------------------------------------------------------+"
+    echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    echo -e "\e[0m"
+}
 
-echo "Script de Recolección de Información con theHarvester"
-echo "-----------------------------------------------------"
+# Inicio del script
+mostrar_banner
+
 
 # Solicitar al usuario el dominio objetivo
 read -p "Ingresa el dominio objetivo (ej. ejemplo.com): " target_domain
