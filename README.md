@@ -45,5 +45,5 @@ License
 This script is under the MIT License. See the LICENSE file for more details.
 ```bash
 theHarvester -d <TARGET_DOMAIN> -b <DATA_SOURCE> -l 50 -f results.html
-Make sure to update the script name, description, and any other details as needed for your specific script. If your script has special dependencies, you can mention them in the "Requirements" section of the README.
+
 
