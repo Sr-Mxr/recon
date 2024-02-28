@@ -1,4 +1,4 @@
-# \e[1;36mInformation Gathering with theHarvester \e[0m
+# -e \e[1;36mInformation Gathering with theHarvester \e[0m
 # \e[1;31mBy: Mxr \e[0m
 This Bash script utilizes theHarvester to collect information from domains and email addresses.
 
