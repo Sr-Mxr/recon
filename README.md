@@ -1,5 +1,5 @@
-<h1 style="color:#880088;">Information Gathering with theHarvester</h1>
-# By: Mxr
+# \e[1;36mInformation Gathering with theHarvester \e[0m
+# \e[1;31mBy: Mxr \e[0m
 This Bash script utilizes theHarvester to collect information from domains and email addresses.
 
 ## Usage
